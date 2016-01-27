@@ -1,8 +1,11 @@
 Author : Vinojan Thiyagarajah
 mail : vinojan.11@cse.mrt.ac.lk
 
-Hotel Portal 
+Hotel Portal - Android Application
 ------------
+
+Source code : https://github.com/Vinojan/HotelPortal/tree/master/HotelPortal
+
 Hotel portal is an aAndroid application for adding/searching hotels in Sri Lanka. Android app 
 consists of two main acitivities one for entering the details of the hotels and the other for city based 
 search including sorting. 
@@ -43,3 +46,28 @@ Searching Hotel : SEARCH button
 		 	If user location is not available then sorted in hotel name alphabetical order.
 
 -----------------------------------------------------------------------------------------------
+
+Hotel Portel Service : PHP backend.
+---------------------
+
+For the HotelPortal android application databace access, I created the PHP backend using YII PHP MVC framework. 
+(Ref: http://www.yiiframework.com/)
+
+Through this framework I matched the database tables as Models and COntroler and Views.
+Framework take care of connecting the database.
+
+I used the MySQL database and appache2 server in ubuntu locally.
+Use phpmyadmin to manage database locally.
+
+To run the backend you can copy the following sorce code in you web accessible folder and create the database in the web host.
+
+Source code :
+
+To run successfully Hotel Portal app after creating and putting the database and the php source code into web accesible folder / host.
+
+*----		You have to change the the "Configuration.java" file inside the  "com.vinojan.hotelportal" package as :
+*				 public final static String HOME_URL="localhost";
+*				 						change the local host to your web host name.
+
+
+---------- Thank you ------------------ 

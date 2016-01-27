@@ -1,0 +1,16 @@
+2016/01/26 18:54:00 [error] [php] Undefined variable: productsModel (/var/www/html/hotelportalserv/protected/controllers/CityController.php:107)
+Stack trace:
+#0 /var/www/html/yiiMain/framework/web/filters/CFilterChain.php(133): CityController->runAction()
+#1 /var/www/html/yiiMain/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /var/www/html/yiiMain/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /var/www/html/yiiMain/framework/web/filters/CInlineFilter.php(58): CityController->filterAccessControl()
+#4 /var/www/html/yiiMain/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /var/www/html/yiiMain/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/html/yiiMain/framework/web/CController.php(265): CityController->runActionWithFilters()
+#7 /var/www/html/yiiMain/framework/web/CWebApplication.php(282): CityController->run()
+#8 /var/www/html/yiiMain/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/yiiMain/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/hotelportalserv/index.php(13): CWebApplication->run()
+REQUEST_URI=/hotelportalserv/index.php?r=city/getcitybyid
+in /var/www/html/hotelportalserv/protected/controllers/CityController.php (107)
+in /var/www/html/hotelportalserv/index.php (13)
