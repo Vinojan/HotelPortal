@@ -61,7 +61,8 @@ Use phpmyadmin to manage database locally.
 
 To run the backend you can copy the following sorce code in you web accessible folder and create the database in the web host.
 
-Source code :
+* Source code : https://github.com/Vinojan/HotelPortal/tree/master/hotelportalserv
+
 
 To run successfully Hotel Portal app after creating and putting the database and the php source code into web accesible folder / host.
 
