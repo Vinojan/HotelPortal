@@ -75,4 +75,9 @@ public class Hotel {
     public boolean equals(Object o) {
         return super.equals(o);
     }
+
+    /*For Jenkin Test */
+    public void sayHello(){
+    	System.out.println("Hello..!");
+    }
 }
