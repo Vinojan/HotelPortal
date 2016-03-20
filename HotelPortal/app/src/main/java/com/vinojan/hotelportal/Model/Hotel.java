@@ -80,7 +80,5 @@ public class Hotel {
     public void sayHello(){
     	System.out.println("Hello..!");
     }
-    public void sayHelloo(){
-    	System.out.println("Hello..!");
-    }
+    
 }
